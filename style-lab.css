@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+nav{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #D67472;
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+hr{
+    width: 50px;
+    margin: 20px auto;
+    height: 3px;
+    border: none;
+}
+.first-section{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(./img/header-flower.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.first-section h1{
+    padding-top: 200px;
+    font-size: 36px;
+}
+.first-section p{
+    padding-bottom: 200px;
+    width: 45%;
+    margin: 0 auto;
+}
+.first-section hr{
+    background: #D67472;
+}
+.second-section{
+    background-color: #D67472;
+    color: white;
+}
+.second-section h2{
+    font-size: 24px;
+    padding-top: 50px;
+    text-align: center;
+}
+.second-section p{
+    padding-bottom: 30px;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+.second-section hr{
+    background: white;
+}
+.second-section button{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.third-section{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.third-section h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.third-section li{
+    display: inline-block;
+    list-style: none;
+    width: 20%;
+    
+}
+.third-section li:not(:last-child){
+    margin-right: 40px;
+}
+body > main > section.third-section > ul > li:nth-child(1) > p{
+    font-size: 14px;
+}
+body > main > section.third-section > ul > li:nth-child(2) > p{
+    font-size: 12.5px;
+}
+body > main > section.third-section > ul > li:nth-child(3) > p{
+    font-size: 14px;
+}
+.third-section img{
+    width: 100px;
+    height: 100px;
+}
+.third-section hr{
+    background: #D67472;
+}
+footer{
+    background-color: #D67472;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 12px;
+}
